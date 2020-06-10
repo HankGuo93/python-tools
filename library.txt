@@ -1,0 +1,1 @@
+openpyxl,pypiwin32,selenium,pyautogui,requests,xlrd,xlwt,xlutils,datetime,pandas,fpdf
