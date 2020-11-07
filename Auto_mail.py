@@ -16,8 +16,8 @@ else:
 # --------------------------------900-12 營業員排行表-------------------------------------  
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = '日盛期貨企劃部人員'
-mail.CC ="交易部-外期組;futurestd@jsun.com"
+mail.To = 'someOne'
+mail.CC ="someOnem"
 mail.Subject = '營業員業績排行表'
 mail.Body = ''
 mail.Attachments.Add("Z:\\03-外期帳務作業\\01-每日作業\\15-IXF\\"+Date+"-900-12.txt")
@@ -26,8 +26,8 @@ mail.Send()
 #--------------------------------------追繳明細------------------------------------------
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = '葉美玲;周哲筠'
-mail.CC ="交易部-外期組;futurestd@jsun.com"
+mail.To = 'someOne'
+mail.CC ="someOne"
 mail.Subject = YDate+'追繳明細'
 mail.Body = ''
 mail.Attachments.Add("Z:\\03-外期帳務作業\\01-每日作業\\15-IXF\\"+Date+"-900-11.txt")
@@ -37,18 +37,18 @@ mail.Send()
 #--------------------------------------9752622亞洲-------------------------------------------
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = 'A_accounting@jsfund.com.tw;b024fd02@megabank.com.tw;b024fd27@megabank.com.tw'
-mail.CC ='jf_stock02@jsfund.com.tw; 法人部人員(日盛期貨); 交易部-外期組;futurestd@jsun.com'
-mail.Subject = YDate+'外期日盛亞洲機會證券投資信託基金報告書(帳號9752622)'
+mail.To = 'someOne'
+mail.CC ='someOne'
+mail.Subject = YDate+'報告書'
 mail.Body = '附檔為即時買賣報告書,其資料內容同買賣報告書。'
-mail.Attachments.Add("Z:\\03-外期帳務作業\\01-每日作業\\15-IXF\\"+Date+"-9752622.txt")
+mail.Attachments.Add("Z:\\03-外期帳務作業\\01-每日作業\\15-IXF\\"+Date+"-.txt")
 mail.Send()
 
 #--------------------------------------淨額調整-------------------------------------------
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = '陳靜怡(期貨稽核室);期貨結算部'
-mail.CC ="曾盈瑞;futurestd@jsun.com"
+mail.To = 'someOne'
+mail.CC ="someOne"
 mail.Subject = YDate+'客戶與上手淨額調整表'
 mail.Body = ''
 mail.Attachments.Add("Z:\\03-外期帳務作業\\01-每日作業\\24-900&920大1P\\"+Date+"-上手淨額.txt")
@@ -59,8 +59,8 @@ mail.Send()
 #--------------------------------------手上買賣報告書、權益、傭收----------------------
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = '葉美玲;周哲筠;謝毓蕙;'
-mail.CC ="futurestd@jsun.com"
+mail.To = 'someOne;'
+mail.CC ="someOne"
 mail.Subject = YDate+'上手買賣報告書,權益,傭收等'
 mail.Body = ''
 mail.Attachments.Add("Z:\\03-外期帳務作業\\01-每日作業\\24-900&920大1P\\"+Date+"-000AE佣收.txt")
@@ -91,30 +91,30 @@ mail.Send()
 # 需要先製作一個pdf 
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To ="dept_dealing@jkoam.com; dept_finance@jkoam.com; selena.wen@sinopac.com; ying130018@sinopac.com; wei1210@sinopac.com; azi@sinopac.com; cindia.lin@sinopac.com; Rene.Shiu@jsun.com; rick.liu@jsun.com; rita1995@jsun.com"
-mail.CC ="謝文真;曾盈瑞;futurestd@jsun.com"
-mail.Subject = '9753883買賣報告書-'+YDate
+mail.To ="someOne"
+mail.CC ="someOne"
+mail.Subject = '買賣報告書-'+YDate
 mail.Body = '報表如附檔 , thanks'
-mail.Attachments.Add("Z:\\03-外期帳務作業\\01-每日作業\\9753883買報\\"+Date+"-9753883買報.pdf")
+mail.Attachments.Add("Z:\\03-外期帳務作業\\01-每日作業\\買報\\"+Date+"-買報.pdf")
 mail.Send()
 
 #================#9753896買報================================
 # 需要先製作一個pdf 
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To ="dept_dealing@jkoam.com; dept_finance@jkoam.com; “彰化銀行保銀群組” <chbfund@chb.com.tw>; “曾郁婷(彰化銀行保銀)” <chb141754@chb.com.tw>; ; Rene.Shiu@jsun.com; rick.liu@jsun.com; rita1995@jsun.com"
-mail.CC ="謝文真;曾盈瑞;futurestd@jsun.com"
-mail.Subject = '9753896買賣報告書-'+YDate
+mail.To ="someOne"
+mail.CC ="someOne"
+mail.Subject = '買賣報告書-'+YDate
 mail.Body = '報表如附檔 , thanks'
-mail.Attachments.Add("Z:\\03-外期帳務作業\\01-每日作業\\9753896買報\\"+Date+"-9753896買報.pdf")
+mail.Attachments.Add("Z:\\03-外期帳務作業\\01-每日作業\\買報\\"+Date+"-買報.pdf")
 mail.Send()
 
 #================#138 ================================
 
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To ="921011@jsun.com;941008@jsun.com"
-mail.CC ="futurestd@jsun.com"
+mail.To ="someOne"
+mail.CC ="someOne"
 mail.Subject = YDate+'-外期每日對帳單'
 mail.Body = '此文件僅供所屬營業員核對用,請勿轉予客戶'
 mail.Attachments.Add("Z:\\03-外期帳務作業\\01-每日作業\\23-129&138&580\\"+Date+".pdf")
@@ -124,8 +124,8 @@ mail.Send()
 
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = '林鐘陽 <john.lin@jsun.com>;'
-mail.CC ="futurestd@jsun.com"
+mail.To = 'someOne;'
+mail.CC ="someOne"
 mail.Subject = YDate+'自營帳務報表'
 mail.Body = ''
 
@@ -141,8 +141,8 @@ mail.Send()
 
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = '周哲筠'
-mail.CC ="futurestd@jsun.com;交易部-外期組"
+mail.To = 'someOne'
+mail.CC ="someOne"
 mail.Subject = YDate+'900U'
 mail.Body = ''
 
