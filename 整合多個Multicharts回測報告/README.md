@@ -8,3 +8,4 @@
 * 目前起始金額寫死20萬，單邊手續費50
 * 若策略貨幣非台幣，需開啟檔案將 [**獲利(¤)**] 手動調整成台幣
 
+[程式碼](https://github.com/HankGuo93/python_ToolForWork/blob/master/%E6%95%B4%E5%90%88%E5%A4%9A%E5%80%8BMulticharts%E5%9B%9E%E6%B8%AC%E5%A0%B1%E5%91%8A/PortfolioManager_Beta.md)
